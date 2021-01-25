@@ -18,7 +18,6 @@ public:
         liczba_warzyw++; 
     }
     ~Warzywo() { liczba_warzyw--; }
-    static unsigned getVeg() { return liczba_warzyw; }
     void opis(std::ostream& arg) const {
         arg << "[" << nazwa << "]: " << " [" << cena << "], " << " [" << kolor << "]" << std::endl;
     }
