@@ -12,7 +12,7 @@ private:
     std::string nazwa;
     double cena;
     int kolor;
-    inline static unsigned liczba_warzyw;
+    static unsigned liczba_warzyw;
 public:
     Warzywo(const std::string& n, double c, int k) :nazwa(n), cena(c), kolor(k) {
         liczba_warzyw++; 
@@ -22,7 +22,7 @@ public:
         arg << nazwa << ": " << cena << ", " <<  kolor << std::endl;
     }
 
-    inline static unsigned getVeg(){return liczba_warzyw;}
+    static unsigned getVeg(){return liczba_warzyw;}
 };
 
-inline unsigned Warzywo::liczba_warzyw = 0;
+unsigned Warzywo::liczba_warzyw = 0;
