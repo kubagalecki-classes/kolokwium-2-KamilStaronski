@@ -23,5 +23,5 @@ public:
         arg << "[" << nazwa << "]: " << " [" << cena << "], " << " [" << kolor << "]" << std::endl;
     }
 
-    unsigned getVeg{return liczba_warzyw;}// getter dla zad 5
+    const std::string getVeg{return nazwa;}// getter dla zad 5
 };
