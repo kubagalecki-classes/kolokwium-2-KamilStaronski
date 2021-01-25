@@ -7,6 +7,5 @@
 // tutaj szablon gotujZupe
 template <typename T>
 unsigned gotujZupe(const Warzywo& w, const T& obiekt){
-    unsigned wynik = obiekt.gotujZupe(w);
-    return wynik*wynik;
+    return obiekt.gotujZupe(w)*obiekt.gotujZupe(w);
 }
