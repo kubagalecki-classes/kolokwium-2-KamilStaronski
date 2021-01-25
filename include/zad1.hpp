@@ -22,7 +22,7 @@ public:
         arg << nazwa << ": " << cena << ", " <<  kolor << std::endl;
     }
 
-    //const std::string getVeg(){return nazwa;}// getter dla zad 5
+    unsigned getVeg(){return liczba_warzyw;}
 };
 
 //inline unsigned Warzywo::liczba_warzyw = 0;
