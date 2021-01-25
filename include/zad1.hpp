@@ -19,7 +19,7 @@ public:
     }
     ~Warzywo() { liczba_warzyw--; }
     void opis(std::ostream& arg) const {
-        arg << "[" << nazwa << "]: " << " [" << cena << "], " << " [" << kolor << "]" << std::endl;
+        arg << nazwa << ": " << cena << ", " <<  kolor << std::endl;
     }
 
     const std::string getVeg(){return nazwa;}// getter dla zad 5
