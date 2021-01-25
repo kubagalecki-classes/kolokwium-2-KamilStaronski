@@ -22,7 +22,7 @@ public:
         arg << nazwa << ": " << cena << ", " <<  kolor << std::endl;
     }
 
-    static unsigned getVeg(){return liczba_warzyw;}
+    inline static unsigned getVeg(){return liczba_warzyw;}
 };
 
 inline unsigned Warzywo::liczba_warzyw = 0;
