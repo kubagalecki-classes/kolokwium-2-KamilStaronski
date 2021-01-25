@@ -25,4 +25,4 @@ public:
     static unsigned getVeg(){return liczba_warzyw;}
 };
 
-unsigned Warzywo::liczba_warzyw = 0;
+//unsigned Warzywo::liczba_warzyw = 0;
